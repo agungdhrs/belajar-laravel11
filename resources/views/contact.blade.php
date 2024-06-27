@@ -13,7 +13,9 @@
     <a href="/contact">Contact</a>
     <a href="/blog">Blog</a>
     <h1>Contact</h1>
-    <p>{{ $email }}</p>
-    <p>{{ $instagram }}</p>
+    <ul>
+        <li>{{ $email }}</li>
+        <li>{{ $instagram }}</li>
+    </ul>
 </body>
 </html>
